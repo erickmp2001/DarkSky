@@ -1,0 +1,81 @@
+﻿@font-face {
+    font-family: 'Roboto-Light';
+    src: url('../Fonts/Roboto/Roboto-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SocialCircles';
+    src: url('../Fonts/Social Circles/Social Circles v1.1.otf') format('opentype');
+}
+
+body {
+    background-color: #1e1e1e;
+    color: lightgray;
+    font-family: Roboto-Light;
+    margin: 0;
+    padding:0;
+}
+
+.container-fluid {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.lineBootom {
+    border-bottom: 1px solid #0015ff;
+}
+
+.lineCards {
+    border: 0;
+    padding: 20px;
+}
+
+.lineCards:hover {
+    border: 1px solid #0015ff;
+}
+
+/*iframe mapa*/
+
+.mapa {
+    width: 100%;
+    height: 900px;
+}
+
+.mapa iframe {
+    width: 100%;
+}
+
+/*footer*/
+
+.footerDiv {
+    width: 100%;
+    background-color: #393939;
+    padding: 10px;
+}
+
+.fakeFooter {
+    width: 100%;
+    background-color: #262626;
+    padding: 10px;
+    opacity: 0.8;
+}
+
+.socialMedia {
+    font-family: SocialCircles;
+}
+
+.socialMedia li {
+    display: inline;
+}
+
+    .socialMedia li a {
+        font-size: 50pt;
+        color: ghostwhite;
+        text-decoration: none;
+        margin-left: 10px;
+    }
+
+        .socialMedia li a:hover {
+            color: #0015ff;
+        }

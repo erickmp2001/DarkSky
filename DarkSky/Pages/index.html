@@ -1,0 +1,551 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="../Content/style.css" rel="stylesheet" />
+    <link href="../Images/logoAp.png" rel="icon" />
+    <title>DarkSky</title>
+</head>
+<body>
+    <div class="container-fluid" id="Home">
+        <header>
+            <!--menu-->
+            <nav class="lineBootom navbar navbar-expand-lg navbar-dark fixed-top bg-transparent">
+                <div class="container-fluid">
+                    <a class="navbar-brand ms-3 d-none d-lg-block" href="#">
+                        <img src="../Images/logoAp.png" width="35" height="35"/>
+                        <span class="ms-2">Dark Sky</span></a>
+
+                    <!--hamburguer-->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#MenuPrincipal" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="container-fluid">
+                        <div class="collapse navbar-collapse float-end px-3 bg-dark" id="MenuPrincipal">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="#Home">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#Products">Products</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#Services">Services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#Localization">Localization</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#Contact">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!--carousel-->
+                <div id="carouselExampleIndicators" class="carousel slide d-none d-md-block" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../Images/carrousel1.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../Images/carrousel2.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../Images/carrousel3.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+        </header>
+        <!--conteúdo-->
+        <main>
+            <!--products-->
+            <section>
+                <div class="container">
+                    <h1 id="Products" class="text-center">Featured Products</h1>
+                    <!--1ª linha de cards-->
+                    <div class="row">
+                        <div class="col-md-4 col-sm-12">
+                            <div class="lineCards card bg-transparent text-center my-5">
+                                <h4 class="card-title">Personal Attacks</h4>
+                                <hr />
+                                <img src="../Images/cardProd1.png">
+                                <hr />
+                                <div class="card-body">
+                                    <h5 class="card-title">Attacks</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                                    <hr />
+                                    <a href="#" class="btn btn-dark">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <div class="lineCards card bg-transparent text-center my-5">
+                                <h4 class="card-title">Fake News Dissimulation</h4>
+                                <hr />
+                                <img src="../Images/cardProd2.png">
+                                <hr />
+                                <div class="card-body">
+                                    <h5 class="card-title">Dissimulation</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                                    <hr />
+                                    <a href="#" class="btn btn-dark">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <div class="lineCards card bg-transparent text-center my-5">
+                                <h4 class="card-title">People Stalker</h4>
+                                <hr />
+                                <img src="../Images/cardProd3.png">
+                                <hr />
+                                <div class="card-body">
+                                    <h5 class="card-title">Stalker</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                                    <hr />
+                                    <a href="#" class="btn btn-dark">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--2ª linha de cards-->
+                    <div class="row">
+                        <div class="col-md-4 col-sm-12">
+                            <div class="lineCards card bg-transparent text-center my-5">
+                                <h4 class="card-title">Roanoke Nightmare</h4>
+                                <hr />
+                                <img src="../Images/cardProd4.png">
+                                <hr />
+                                <div class="card-body">
+                                    <h5 class="card-title">Nightmare</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                                    <hr />
+                                    <a href="#" class="btn btn-dark">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <div class="lineCards card bg-transparent text-center my-5">
+                                <h4 class="card-title">Pigs From Hell</h4>
+                                <hr />
+                                <img src="../Images/cardProd5.png">
+                                <hr />
+                                <div class="card-body">
+                                    <h5 class="card-title">Hell</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                                    <hr />
+                                    <a href="#" class="btn btn-dark">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <div class="lineCards card bg-transparent text-center my-5">
+                                <h4 class="card-title">Disgustin Lapers</h4>
+                                <hr />
+                                <img src="../Images/cardProd6.png">
+                                <hr />
+                                <div class="card-body">
+                                    <h5 class="card-title">Lapers of Air</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                                    <hr />
+                                    <a href="#" class="btn btn-dark">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!--services-->
+            <section>
+                <div class="container">
+                    <h1 id="Services" class="text-center">Featured Services and Prices</h1>
+                    <div class="table-responsive-sm">
+                        <table class="table text-light bg-transparent border-primary my-5">
+                            <thead>
+                                <tr>
+                                    <th>Services</th>
+                                    <th>Description</th>
+                                    <th>$Price</th>
+                                    <th>Options</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+
+                                <!--linha 1-->
+                                <tr>
+                                    <td>Stalker</td>
+                                    <td>Stalker All People</td>
+                                    <td>$60,00</td>
+                                    <td>
+                                        <a class="btn btn-outline-primary" href="#">+</a>
+                                        <a class="btn btn-outline-danger" href="#">-</a>
+                                    </td>
+                                </tr>
+                                <!--linha 2-->
+                                <tr>
+                                    <td>Attacks</td>
+                                    <td>Personal Attacks</td>
+                                    <td>$120,00</td>
+                                    <td>
+                                        <a class="btn btn-outline-primary" href="#">+</a>
+                                        <a class="btn btn-outline-danger" href="#">-</a>
+                                    </td>
+                                </tr>
+                                <!--linha 3-->
+                                <tr>
+                                    <td>Dissimulation</td>
+                                    <td>Fake News Dissimulation</td>
+                                    <td>$40,00</td>
+                                    <td>
+                                        <a class="btn btn-outline-primary" href="#">+</a>
+                                        <a class="btn btn-outline-danger" href="#">-</a>
+                                    </td>
+                                </tr>
+                                <!--linha 4-->
+                                <tr>
+                                    <td>Murder</td>
+                                    <td>Present Day</td>
+                                    <td>$72,00</td>
+                                    <td>
+                                        <a class="btn btn-outline-primary" href="#">+</a>
+                                        <a class="btn btn-outline-danger" href="#">-</a>
+                                    </td>
+                                </tr>
+                                <!--linha 5-->
+                                <tr>
+                                    <td>Erase</td>
+                                    <td>Erase People</td>
+                                    <td>$64,00</td>
+                                    <td>
+                                        <a class="btn btn-outline-primary" href="#">+</a>
+                                        <a class="btn btn-outline-danger" href="#">-</a>
+                                    </td>
+                                </tr>
+                                <!--linha 6-->
+                                <tr>
+                                    <td>Stalker</td>
+                                    <td>Stalker All People</td>
+                                    <td>$60,00</td>
+                                    <td>
+                                        <a class="btn btn-outline-primary" href="#">+</a>
+                                        <a class="btn btn-outline-danger" href="#">-</a>
+                                    </td>
+                                </tr>
+                                <!--linha 7-->
+                                <tr>
+                                    <td>Personal Murder</td>
+                                    <td>All Time All People</td>
+                                    <td>$80,00</td>
+                                    <td>
+                                        <a class="btn btn-outline-primary" href="#">+</a>
+                                        <a class="btn btn-outline-danger" href="#">-</a>
+                                    </td>
+                                </tr>
+                                <!--linha 8-->
+                                <tr>
+                                    <td>Hope</td>
+                                    <td>Hope Above</td>
+                                    <td>$57,00</td>
+                                    <td>
+                                        <a class="btn btn-outline-primary" href="#">+</a>
+                                        <a class="btn btn-outline-danger" href="#">-</a>
+                                    </td>
+                                </tr>
+                                <!--linha 9-->
+                                <tr>
+                                    <td>Stalker All People</td>
+                                    <td>All Stalker</td>
+                                    <td>$57,00</td>
+                                    <td>
+                                        <a class="btn btn-outline-primary" href="#">+</a>
+                                        <a class="btn btn-outline-danger" href="#">-</a>
+                                    </td>
+                                </tr>
+
+
+
+                            <!--linha 1-->
+                            <tr>
+                                <td>Stalker</td>
+                                <td>Stalker All People</td>
+                                <td>$60,00</td>
+                                <td>
+                                    <a class="btn btn-outline-primary" href="#">+</a>
+                                    <a class="btn btn-outline-danger" href="#">-</a>
+                                </td>
+                            </tr>
+                            <!--linha 2-->
+                            <tr>
+                                <td>Attacks</td>
+                                <td>Personal Attacks</td>
+                                <td>$120,00</td>
+                                <td>
+                                    <a class="btn btn-outline-primary" href="#">+</a>
+                                    <a class="btn btn-outline-danger" href="#">-</a>
+                                </td>
+                            </tr>
+                            <!--linha 3-->
+                            <tr>
+                                <td>Dissimulation</td>
+                                <td>Fake News Dissimulation</td>
+                                <td>$40,00</td>
+                                <td>
+                                    <a class="btn btn-outline-primary" href="#">+</a>
+                                    <a class="btn btn-outline-danger" href="#">-</a>
+                                </td>
+                            </tr>
+                            <!--linha 4-->
+                            <tr>
+                                <td>Murder</td>
+                                <td>Present Day</td>
+                                <td>$72,00</td>
+                                <td>
+                                    <a class="btn btn-outline-primary" href="#">+</a>
+                                    <a class="btn btn-outline-danger" href="#">-</a>
+                                </td>
+                            </tr>
+                            <!--linha 5-->
+                            <tr>
+                                <td>Erase</td>
+                                <td>Erase People</td>
+                                <td>$64,00</td>
+                                <td>
+                                    <a class="btn btn-outline-primary" href="#">+</a>
+                                    <a class="btn btn-outline-danger" href="#">-</a>
+                                </td>
+                            </tr>
+                            <!--linha 6-->
+                            <tr>
+                                <td>Stalker</td>
+                                <td>Stalker All People</td>
+                                <td>$60,00</td>
+                                <td>
+                                    <a class="btn btn-outline-primary" href="#">+</a>
+                                    <a class="btn btn-outline-danger" href="#">-</a>
+                                </td>
+                            </tr>
+                            <!--linha 7-->
+                            <tr>
+                                <td>Personal Murder</td>
+                                <td>All Time All People</td>
+                                <td>$80,00</td>
+                                <td>
+                                    <a class="btn btn-outline-primary" href="#">+</a>
+                                    <a class="btn btn-outline-danger" href="#">-</a>
+                                </td>
+                            </tr>
+                            <!--linha 8-->
+                            <tr>
+                                <td>Hope</td>
+                                <td>Hope Above</td>
+                                <td>$57,00</td>
+                                <td>
+                                    <a class="btn btn-outline-primary" href="#">+</a>
+                                    <a class="btn btn-outline-danger" href="#">-</a>
+                                </td>
+                            </tr>
+                            <!--linha 9-->
+                            <tr>
+                                <td>Stalker All People</td>
+                                <td>All Stalker</td>
+                                <td>$57,00</td>
+                                <td>
+                                    <a class="btn btn-outline-primary" href="#">+</a>
+                                    <a class="btn btn-outline-danger" href="#">-</a>
+                                </td>
+                            </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <!--localization-->
+            <section>
+                <div class="container">
+                    <h1 id="Localization" class="text-center mb-3">Localization</h1>
+                    <div class="mapa">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.0254647271145!2d-46.43405078538559!3d-23.49559226505104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce63dda7be6fb9%3A0xa74e7d5a53104311!2sSenac%20S%C3%A3o%20Miguel%20Paulista!5e0!3m2!1spt-BR!2sbr!4v1614882111489!5m2!1spt-BR!2sbr"
+                                width="600" height="900" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </section>
+
+            <!--contact-->
+            <section>
+                <div class="container text-center">
+                    <h1 id="Contact" class="text-center">Our Contacts</h1>
+                    <div class="row">
+                        <div class="col-12">
+                            <hgroup>
+                                <h1>Try To Talk To Us</h1>
+                                <h4>One day we will retourn your contact</h4>
+                            </hgroup>
+                            <hgroup>
+                                <h5>Phone Number: +55(11) 98721-6056</h5>
+                                <h5>Email: contact@@darksky.rock</h5>
+                                <h5>Site: http://www.darksky.rock</h5>
+                            </hgroup>
+                        </div>
+                        <div class="col-12">
+                            <img src="../Images/cardProd8.png" class="figure-img" width="400" />
+                        </div>
+                        <!----------form--------->
+                        <div class="col-12">
+                            <form class="row g-3 needs-validation" novalidate>
+
+                                <!--bloco 1-->
+                                <div class="col-md-4">
+                                    <label for="validationCustom01" class="form-label">Name</label>
+                                    <input type="text" class="form-control" id="validationCustom01" required>
+                                    <div class="valid-feedback">
+                                        Ok!
+                                    </div>
+                                    <div class="invalid-feedback">
+                                        Please choose a Name.
+                                    </div>
+
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="validationCustom02" class="form-label">Date</label>
+                                    <input type="date" class="form-control" id="validationCustom02" value="Otto" required>
+                                    <div class="valid-feedback">
+                                        Ok!
+                                    </div>
+                                    <div class="invalid-feedback">
+                                        Please choose a Date.
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <label for="validationCustomUsername" class="form-label">E-mail</label>
+                                    <div class="input-group has-validation">
+                                        <span class="input-group-text" id="inputGroupPrepend">@</span>
+                                        <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                                        <div class="valid-feedback">
+                                            Ok!
+                                        </div>
+                                        <div class="invalid-feedback">
+                                            Please choose a E-mail.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--bloco 2-->
+                                <div class="col-md-6">
+                                    <label for="validationCustom03" class="form-label">City</label>
+                                    <input type="text" class="form-control" id="validationCustom03" required>
+                                    <div class="valid-feedback">
+                                            Ok!
+                                        </div>
+                                    <div class="invalid-feedback">
+                                        Please provide a valid city.
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="validationCustom04" class="form-label">State</label>
+                                    <select class="form-select" id="validationCustom04" required>
+                                        <option selected disabled value="">Choose...</option>
+                                        <option>SP</option>
+                                        <option>RJ</option>
+                                        <option>BA</option>
+                                        <option>RO</option>
+                                    </select>
+                                    <div class="invalid-feedback">
+                                        Please select a valid state.
+                                    </div>
+                                </div>
+                                
+                                <!--bloco 3-->
+                                <div class="col-12">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                        <label class="form-check-label" for="invalidCheck">
+                                            Agree to terms and conditions
+                                        </label>
+                                        <div class="invalid-feedback">
+                                            You must agree before submitting.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-dark" type="submit">Submit form</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer>
+            <div class="footerDiv">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-7 col-sm-12">
+                            <h3>On line help</h3>
+                            <p class="small">
+                                Leprous pigs from outer space attacking our planet Trash rising.
+                            </p>
+                            <h6 class="small">Email: contact@@darksky.rock</h6>
+                        </div>
+                        <div class="col-md-5 col-sm-12">
+                            <h3>Social Media</h3>
+                            <ul class="socialMedia">
+                                <li><a href="#">F</a></li>
+                                <li><a href="#">Y</a></li>
+                                <li><a href="#">T</a></li>
+                                <li><a href="#">G</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!--fake footer-->
+                <div class="fakeFooter text-light">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-7 col-sm-12">
+                                <h6 class="small">
+                                    &copy; 2066 copyright all rights reserved 
+                                </h6>
+                            </div>
+                            <div class="col-md-5 col-sm-12">
+                                <h6 class="small">
+                                    Powered by satan lives here
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="../Scripts/jquery-3.5.1.min.js"></script>
+    <script src="../Scripts/bootstrap.min.js"></script>
+    <script src="../Scripts/script.js"></script>
+</body>
+</html>
